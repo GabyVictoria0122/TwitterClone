@@ -1,9 +1,15 @@
 <template>
-  <h1>Aqui vai ser a timeline</h1>
+  <Timeline :tweets="tweets" />
 </template>
 
 <script>
+import Timeline from '../components/Timeline.vue'
+
 export default {
-  name: 'HomePage'
+  name: 'HomePage',
+  props: ['tweets'],
+  components: {
+    Timeline
+  }
 }
 </script>
