@@ -12,9 +12,7 @@
               rounded="lg"
               min-height="268"
             >
-              <!--  -->
-                            <!-- <h1>Menu</h1> -->
-
+              <Menu/>
             </v-sheet>
           </v-col>
 
@@ -40,25 +38,19 @@
               rounded="lg"
               min-height="268"
             >
-              <!--  -->
-              <h1>Buscar no Twitter </h1>
-
+              <SearchTwitter/>
             </v-sheet>
             <v-sheet
               rounded="lg"
               min-height="268"
             >
-              <!--  -->
-              <h1>O que está acontecendo</h1>
-
+              <WhatHappening/>
             </v-sheet>
              <v-sheet
               rounded="lg"
               min-height="268"
             >
-              <!--  -->
-              <h1>Quem seguir</h1>
-
+              <WhoFollow/>
             </v-sheet>
           </v-col>
         </v-row>
@@ -68,8 +60,18 @@
 </template>
 
 <script>
+import Menu from '../components/Menu.vue'
+import SearchTwitter from '../components/SearchTwitter.vue'
+import WhoFollow from '../components/WhoFollow.vue'
+import WhatHappening from '../components/WhatHappening.vue'
 export default {
   name: 'DefaultLayout',
+  components: {
+    Menu,
+    SearchTwitter,
+    WhoFollow,
+    WhatHappening
+  },
   data () {
     return {
       // links: [

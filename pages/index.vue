@@ -1,4 +1,9 @@
 <template>
+  <!-- <v-progress-circular
+      indeterminate
+      color="primary"
+  >
+  </v-progress-circular> -->
   <Home :tweets='tweets' />
 </template>
 
