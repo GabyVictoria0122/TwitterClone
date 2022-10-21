@@ -1,11 +1,7 @@
 <template>
-<div>              <h1>Quem seguir</h1>
-</div>
+  <div><h1>Quem seguir</h1></div>
 </template>
 
 <script>
-
-export default {
-
-}
+export default {}
 </script>
