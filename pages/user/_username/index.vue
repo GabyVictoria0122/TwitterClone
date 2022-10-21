@@ -1,5 +1,5 @@
 <template>
-  <h1>Aqui vai ser a timeline de um usuario chamado(a) {{username}}</h1>
+  <h1>Aqui vai ser a timeline de um usuario chamado(a) {{ username }}</h1>
 </template>
 
 <script>

@@ -9,10 +9,10 @@
       hide-details
       prepend-inner-icon="mdi-magnify"
       label="Search Twitter"
-    ></v-text-field>
+    />
   </div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>

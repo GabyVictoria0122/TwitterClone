@@ -12,7 +12,7 @@
               rounded="lg"
               min-height="268"
             >
-              <Menu/>
+              <Menu />
             </v-sheet>
           </v-col>
 
@@ -25,8 +25,8 @@
               min-height="70vh"
               rounded="lg"
             >
-            <Nuxt/>
-          </v-sheet>
+              <Nuxt />
+            </v-sheet>
           </v-col>
 
           <v-col
@@ -34,23 +34,23 @@
             sm="2"
             class="mt-0 pt-0"
           >
-           <v-sheet
+            <v-sheet
               rounded="lg"
               min-height="268"
             >
-              <SearchTwitter/>
+              <SearchTwitter />
             </v-sheet>
             <v-sheet
               rounded="lg"
               min-height="268"
             >
-              <WhatHappening/>
+              <WhatHappening />
             </v-sheet>
-             <v-sheet
+            <v-sheet
               rounded="lg"
               min-height="268"
             >
-              <WhoFollow/>
+              <WhoFollow />
             </v-sheet>
           </v-col>
         </v-row>
